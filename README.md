@@ -5,13 +5,17 @@
     A Method based on Oversampling and Ensemble Learning for Predicting the Number of Software Defects
 ### 运行环境介绍
 
-    本项目是在anaconda3的win10电脑上开发出来的，若想看到本项目的具体效果，请安装相对应的环境，采用的编辑器是目前交互性极好的jupyter，
+    本项目是在anaconda3的win10电脑上开发出来的，若想看到本项目的具体效果，请安装相对应的环境，
+    采用的编辑器是目前交互性极好的jupyter，
     若想打开正确浏览里面的代码和注释，强烈建议使用jupyter，其他的编辑器打开可能会出现问题。
 
 ### 本项目中使用的技术和库
 
-    使用了python的一些常用库，包括主要用于科学计算的numpy和pandas,通过 IPython.display 和 matplotlib.pyplot，进行数据的可视化。
-    根据我们样本的特点我们采用了sklearn中的BayesianRidge线性模型、DecisionTreeRegressor决策树回归模型和NearestNeighbors临近算法
+    使用了python的一些常用库，包括主要用于科学计算的numpy和pandas,
+    通过 IPython.display 和 matplotlib.pyplot，
+    进行数据的可视化。
+    根据我们样本的特点我们采用了sklearn中的BayesianRidge线性模型、
+    DecisionTreeRegressor决策树回归模型和NearestNeighbors临近算法
     来训练我们的model。
 
 
